@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exemple de fichier JSON</title>
+</head>
+<body>
+  <h1>Liste de noms</h1>
+  <ul id="leNom"></ul>
+  <script>
+    // Charge les données JSON depuis un fichier
+    fetch('liste.json')
+      .then(response => response.json())
+      .then(data => {
+        // Récupère l'élément <ul> de la page HTML
+        const list = document.getElementById('liste');
+        // Ajoute un élément <li> pour chaque nom dans les données JSON
+        data.forEach(item => {
+            if (item.Nom_Apprenant == 'AURION') {
+                const li = document.createElement('li');
+                li.textContent = item.Nom_Apprenant + " : x0 = " + item.x0 + " et x1 = " + item.x1;
+                list.appendChild(li);
+                }
+            });
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>
