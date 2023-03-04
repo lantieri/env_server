@@ -9,7 +9,7 @@
   <ul id="myList"></ul>
   <script>
     // Charge les données JSON depuis un fichier
-    fetch('data.json')
+    fetch('liste.json')
       .then(response => response.json())
       .then(data => {
         // Récupère l'élément <ul> de la page HTML
@@ -17,7 +17,7 @@
         // Ajoute un élément <li> pour chaque nom dans les données JSON
         data.forEach(item => {
           const li = document.createElement('li');
-          li.textContent = item.name;
+          li.textContent = item.Nom_Apprenant;
           list.appendChild(li);
         });
       })
