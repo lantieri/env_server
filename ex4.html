@@ -16,9 +16,9 @@
         const list = document.getElementById('liste');
         // Ajoute un élément <li> pour chaque nom dans les données JSON
         data.forEach(item => {
-            if (item.Nom_Apprenant == 'AURION') {
+            if (item.Nom == 'ALBERT') {
                 const li = document.createElement('li');
-                li.textContent = item.Nom_Apprenant + " : x0 = " + item.x0 + " et x1 = " + item.x1;
+                li.textContent = item.Nom + " : x0 = " + item.x0 + " et x1 = " + item.x1;
                 list.appendChild(li);
                 }
             });
