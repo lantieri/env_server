@@ -13266,7 +13266,7 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
       .then(data => {
         const d = document.getElementById('leNom');
             data.forEach(item => {
-            if (item.Nom_Apprenant == nom) {
+            if (item.Nom == nom) {
                 d.innerHTML = "Bonjour " + item.Prenom+" "+ item.Nom + ", pour votre sujet : x0 = " + item.x0 + " et x1 = " + item.x1;
                 };
             
