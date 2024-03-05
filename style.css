@@ -1,0 +1,57 @@
+math {font-family:times;padding:0 .1em;font-size:1.2em;font-style:normal;}
+.matrix {display:inline-block;
+  border-left:1px solid;
+  border-right:1px solid;
+  border-radius:.6em;
+  vertical-align:middle;
+}
+.math .stack{display:inline-block;
+  vertical-align:middle;
+  line-height:.95}
+.math .stack .sign{display:block;font-size:2em}
+.math .stack sub{display:block;text-align:center}
+.math .stack sup{display:block;text-align:center}
+
+.matrix > .row {display:table-row}
+.matrix > .row > .aij {display:table-cell;text-align:center;padding: 0.1em 0.3em;}
+.align {display:inline-table;vertical-align:middle}
+.syst {position:relative;
+  display:inline-block;
+  border-left:2px solid;
+  border-radius:.3em;
+  padding-left:0em;
+  margin-left:.25em}
+.syst::before {content:"≺";
+  font-size:.6em;font-weight:bold;
+  display:inline-block;width:1em;margin-left:-1em;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAADElEQVQImWP4//8/AAX+Av5Y8msOAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;background-size:.4em;background-position: 100% 60%;
+  text-align:right;vertical-align:middle
+  .math .stack{display:inline-block;
+    vertical-align:middle;
+    line-height:.95}
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  
