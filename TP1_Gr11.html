@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Ex calcul formel</title>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="DonneesTP.js"></script>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+<h1 id="Test-de-calcul-formel">Test de calcul formel (GIE1)
+</h1>
+<!-- *******CONSIGNES GENERALES******* -->
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing renderePourd_html">
+<h2 id="Durée-:-3-h">Durée : 3 h
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+  <p>Les données de cet énoncé seront personnalisées.</p>
+  <div class="form"> 
+    <label for="nomSaisi">Prénom et Nom : </label>
+    <input type="text" id="leNom" class="nomSaisi"> 
+    <input type="submit" value="Valider" class="valNom"> 
+  </div>
+</div>
+</div>
+</div>
+<div id ="sujet">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div id="Préliminaires" class="text_cell_render border-box-sizing rendered_html">
+<h1>Préliminaires</h1>
+<p><span id = "valxi"></span></p>
+<p>Charger toutes les fonctions de la librairie de calcul symbolique 
+    et exécuter la fonction permettant d'afficher les résultats à venir 
+    sous une forme mathématique.
+</p>
+</div>
+</div>
+</div>
+
+<!-- *******EXERCICE 1******* -->
+<div id="Ex1" class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3>Exercice 1<a class="anchor-link" href="#Exercice-1">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span id=enonce1>On considère 2 points du plan A et B de coordonnées (-1,-2) et (4,5).<br> 
+Tracer l'ensemble des points M de ce plan tels que AM + BM = <span id="valEx1"></span>.</span>
+</p>
+
+</div>
+</div>
+</div>
+
+<!-- *******EXERCICE 2******* -->
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Ex2">Exercice 2<a class="anchor-link" href="#Exercice-2">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span id=imgBielle><img src="https://i.imgur.com/j4Dbaj7.gif" alt="BielleManivelle" height=150 width=300/></span>
+</p>
+
+</div>
+</div>
+</div>
+<div id="Ex2" class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p> <span id=enonce2>De quel angle &alpha; doit-on faire tourner la roue de rayon r = 1 m pour que le point M à l'extrémité gauche 
+    de la bielle se déplace horizontalement de Xh= <span id="valEx2"></span> cm ? (Position initiale : Xh = 0)
+    </span>
+</p>
+
+</div>
+</div>
+</div>
+
+<!-- *******EXERCICE 3******* -->
+<div  class="cell border-box-sizing text_cell rendered">
+    <div class="prompt input_prompt">
+    </div>
+    <div class="inner_cell">
+    <div class="text_cell_render border-box-sizing rendered_html">
+      <h3 id="Ex3">Exercice 3<a class="anchor-link" href="#Exercice-3">&#182;</a></h3>
+    </div>
+    </div>
+    </div>
+    <div id="Ex3" class="cell border-box-sizing text_cell rendered">
+      <div class="prompt input_prompt">
+    </div>
+    <div class="inner_cell">
+    <div class="text_cell_render border-box-sizing rendered_html">
+    <p> <span id=enonce3>Résoudre l'équation :  
+          <span class="math">
+          -<span id="valEx3"></span><i>x</i><sup>3</sup> + 2x<sup>2</sup> - 5 = 3x + 1</span> 
+          puis indiquer la plus petite des parties réelles des solutions (à  <span class="math">10<sup>-4</sup></span> près).
+        </span>
+    </p> 
+    
+    </p> 
+
+    </p>
+    
+    </div>
+    </div>
+    </div>
+
+    
+<!-- *******EXERCICE 4******* -->
+<div  class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+    <h3 id="Ex4">Exercice 4<a class="anchor-link" href="#Exercice-4">&#182;</a></h3>
+  </div>
+  </div>
+  </div>
+  <div id="Ex4" class="cell border-box-sizing text_cell rendered">
+    <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+  <p><span id=enonce4>On considère la matrice définie par
+      <span class="math"><i>m = </i>
+        <span class='matrix'>
+          <span class='row'>
+            <span class="aij"><span id="valEx4"></span></span>
+            <span class="aij"><span id="valEx4b"></span></span>
+            <span class="aij">1</span>
+            <span class="aij">0</span>
+          </span>
+          <span class='row'>
+            <span class="aij"><span id="valEx4c"></span></span>
+            <span class="aij"><span id="valEx4d"></span></span>
+            <span class="aij"><span id="valEx4e"></span></span>
+            <span class="aij"><span id="valEx4f"></span></span>
+          </span>
+          <span class='row'>
+            <span class="aij">0</span>
+            <span class="aij">0</span>
+            <span class="aij">0</span>
+            <span class="aij">0</span>
+          </span>
+          <span class='row'>
+            <span class="aij">0</span>
+            <span class="aij">0</span>
+            <span class="aij">1</span>
+            <span class="aij">2</span>
+          </span>
+        </span>
+      </span>
+      <br>En déduire la liste valPr des valeurs propres exactes de m et indiquer la valeur à <span class="math">10<sup>-4</sup></span> près de la plus petite de ces valeurs propres.
+      <br>Déterminer les matrices P et D de la décomposition <span class="math">P.D.P<sup>-1</sup></span>.
+      </span></p>
+  
+  </div>
+  </div>
+  </div>
+
+    <!-- *******EXERCICE 5******* -->
+<div  class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+    <h3 id="Ex5">Exercice 5<a class="anchor-link" href="#Exercice-5">&#182;</a></h3>
+  </div>
+  </div>
+  </div>
+  <div id="Ex5" class="cell border-box-sizing text_cell rendered">
+    <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+  <p><span id=enonce5>Résoudre l'équation différentielle 
+        <span class="math">
+          20y′′(t)− <span id="valEx5b"></span> y′(t) + <span id="valEx5b"></span> y(t) = t + 1 
+      </span>
+    avec les conditions aux limites 
+    <span class="math">y(0)=1</span> et <span class="math">y(1)=5</span>.
+    <br>
+    Représenter graphiquement la solution solP obtenue sur [-1,10].
+    <br>
+    Indiquer la valeur (approchée à <span class="math">10<sup>-4</sup></span> près) de cette solution solP 
+    en <span class="math">t = 1</span>.
+  </span></p>
+
+</div>
+</div>
+</div>
+
+<!-- *******EXERCICE 6******* -->
+<div  class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+    <h3 id="Ex6">Exercice 6<a class="anchor-link" href="#Exercice-6">&#182;</a></h3>
+  </div>
+  </div>
+  </div>
+  <div id="Ex6" class="cell border-box-sizing text_cell rendered">
+    <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+  <p> <span id=enonce6> Résoudre le système d'équations suivant :  
+    <span class="math">
+      <span class="syst">
+      <span class="align">
+        <span class="row">
+          <span class="cell r">2<i>x</i></span>
+          <span class="cell">+</span>
+          <span class="cell r"><i>y</i></span>
+<span class="cell">-</span>
+        <span class="cell r">4<i>z</i></span>
+          <span class="cell">=</span>
+          <span class="cell r"><span id="valEx6"></span></span>
+        </span><br>
+        <span class="row">
+          <span class="cell r">−<i>x</i></span>
+          <span class="cell">+</span>
+          <span class="cell r">8<i>y</i></span>
+          <span class="cell">=</span>
+          <span class="cell r">3</span>
+        </span><br>
+      <span class="row">
+        <span class="cell r">2/3<i>x</i></span>
+        <span class="cell">+</span>
+        <span class="cell r"><span id="valEx6b"></span><i>y</i></span>
+        <span class="cell">=</span>
+      <span class="cell r"><span id ="valEx6c"></span></span>
+      </span>
+    </span></span></span>
+    <br>
+        <br>Indiquer la solution obtenue pour l'inconnue y (à <span class="math">10<sup>-4</sup></span> près).
+</span></p> 
+  </div>
+</div>
+</div>
+
+<!-- *******EXERCICE 7******* -->
+<div  class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+    <h3 id="Ex7">Exercice 7<a class="anchor-link" href="#Exercice-7">&#182;</a></h3>
+  </div>
+  </div>
+  </div>
+  <div id="Ex7" class="cell border-box-sizing text_cell rendered">
+    <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+  <p> <span id=enonce7>
+  Soit <i>f</i> la fonction  qui à tout réel <i>x</i> associe le plus petit entier <i>n</i> tel que 
+  <span class="math">
+  <span class="stack"> 
+    <sup><i>n</i></sup> 
+    <span class="sign">&sum;</span><sub><i>i</i>=1</sub>
+      </span>
+    <i>i</i><sup>3</sup>  
+  </span>&ge; 100 <i>x</i>
+  <br>
+  Indiquer la valeur de 
+    <span class="math">
+      min(f(<span id ="valEx7"></span>),f(<span id ="valEx7b"></span>))
+    </span>.
+</span></p> 
+    
+</p> 
+
+</p>
+
+</div>
+</div>
+</div>
+
+<!-- *******EXERCICE 8******* -->
+<div  class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+    <h3 id="Ex8">Exercice 8<a class="anchor-link" href="#Exercice-8">&#182;</a></h3>
+  </div>
+  </div>
+  </div>
+  <div id="Ex8" class="cell border-box-sizing text_cell rendered">
+    <div class="prompt input_prompt">
+  </div>
+  <div class="inner_cell">
+  <div class="text_cell_render border-box-sizing rendered_html">
+  <p><span id=enonce8>
+    Ecrire et exécuter les instructions permettant de visualiser le signal triangle de fréquence 
+    <span id ="valEx8"></span> Hz et oscillant entre <span id ="valEx8b"></span> V et <span id ="valEx8c"></span> V.
+    <br><br>
+    8-1- Superposer à cette courbe la représentation graphique de la série de Fourier de ce signal 
+    en négligeant les harmoniques de rang <i>n > 6</i>.
+    <br><br>
+    8-2- Représenter le spectre en amplitudes réelles de ce signal pour les fréquences de 0 Hz 
+    jusqu'à <span id ="valEx8d"></span> Hz.
+    <br><br>
+    8-3- Indiquer l'amplitude en Volt de l'harmonique de rang <span class="math"><i>n</i> = 3</span>. 
+    <br><br>
+    8-4- Indiquer le fréquence (en Hz, à <span class="math">10<sup>-4</sup></span> près) 
+      de l'harmonique de rang <span class="math"><i>n</i> = 5</span>.
+    <br><br>
+    8-5- Indiquer la valeur en Volt de l'harmonique de rang <span class="math"><i>n</i> = 1</span> 
+      au temps <span class="math"><i>t</i> = <span id ="valEx8e"></span></span> s.
+    <br><br>
+    8-6- Indiquer le déphasage (en rad, à <span class="math">10<sup>-4</sup></span> près) 
+      de l'harmonique de rang <span class="math"><i>n</i> = 3</span>. 
+</span></p> 
+    
+</p> 
+
+</p>
+
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
