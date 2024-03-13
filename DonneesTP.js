@@ -35,7 +35,7 @@ $(document).ready(function(){
         $("#valEx5b").html(x0);
 
         $("#valEx6").html(x1);
-        $("#valEx6b").html(x0-x1)
+        $("#valEx6b").html(Math.abs(x0-x1))
         $("#valEx6c").html(x0/(100+x1));
         $("#valEx6d").html(x0/(100+x1));
     });
