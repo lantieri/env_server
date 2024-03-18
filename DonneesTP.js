@@ -13,7 +13,6 @@ $(document).ready(function(){
         $("#sujet").show();
 
 
-        $("#valEx1").html(x0-10);
         $("#valEx1b").html(x1+5);
         
         $("#valEx2").html(x0);
